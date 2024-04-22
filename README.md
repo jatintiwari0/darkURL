@@ -1,7 +1,15 @@
 
-This Tool Generate unicode domains for IDN Homograph Attack and detect them.
-DarkURL 
+# DarkURL
 
+The **DarkURL** is a Python script used to generate homographs of Internationalized Domain Names (IDNs) to perform homograph attacks. A write-up covering the concept of this script can be found at my blog at [intothethickof.it](https://intothethickof.it/2023/08/15/generating-and-detecting-phishing-domains-with-idn-homograph-attacks).
+
+The script uses a mapping of Unicode characters that are *visually-similar* to Latin letters to generate possible IDNs that can be used to impersonate traditional domains which only contain Latin letters.
+
+Some use-cases include:
+- Raising awareness on homograph attacks
+- Generating phishing domains for internal phishing exercises
+- Generating IDN homographs for your company/brand to register before bad actors do
+  
 The DarkURL is released under a BSD-style license. See
 [LICENSE](LICENSE) for more details.
 
